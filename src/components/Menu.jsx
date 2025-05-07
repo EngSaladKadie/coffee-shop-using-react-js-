@@ -8,9 +8,9 @@ const Menu = () => {
       <h1 className="font-semibold text-center text-4xl mt-24 mb-8">
         Our Menu
       </h1>
-      <div>
-        <MenuCard img={img} title="dunfur"  />
-        <MenuCard img={img} title="dunfur"  />
+      <div className="flex flex-col justify-between">
+        <MenuCard  />
+        
 
       </div>
     </div>
