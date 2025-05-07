@@ -5,6 +5,9 @@ const App = () => {
   return (
     <div>
     <Navbar />
+    <main>
+      
+    </main>
     </div>
   )
 }
