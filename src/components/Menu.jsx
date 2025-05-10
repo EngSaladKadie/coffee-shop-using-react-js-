@@ -14,15 +14,12 @@ const Menu = () => {
         Our Menu
       </h1>
       <div className="flex flex-wrap pb-8 gap-8 justify-center">
-        <MenuCard img={img1} title="Espreesso"/>
-        <MenuCard img={img2} title="cappucciano"/>
-        <MenuCard img={img3} title="latte"/>
-        <MenuCard img={img4} title="American"/>
-        <MenuCard img={img5} title="Macchiato"/>
-        <MenuCard img={img6} title="Cortado"/>
-        
-        
-
+        <MenuCard img={img1} title="Espreesso" />
+        <MenuCard img={img2} title="cappucciano" />
+        <MenuCard img={img3} title="latte" />
+        <MenuCard img={img4} title="American" />
+        <MenuCard img={img5} title="Macchiato" />
+        <MenuCard img={img6} title="Cortado" />
       </div>
     </div>
   );
