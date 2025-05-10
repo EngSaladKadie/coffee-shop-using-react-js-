@@ -1,12 +1,12 @@
 import React from "react";
-import img from "../assets/4.jpeg";
+import img1 from "../assets/4.jpeg";
 import { FaShoppingCart } from "react-icons/fa";
 
 function MenuCard(props) {
   return (
     <div className="w-full lg:w-1/4 bg-white p-3 rounded-lg">
       <div>
-        <img className="rounded-xl" src={img} alt="images" />
+        <img className="rounded-xl" src={props.img} alt="images" />
       </div>
       <div className="p-2 mt-5">
         <div className="flex flex-row justify-between">
