@@ -94,9 +94,11 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <p className="text-center py-4 ">&copyright developed by</p>
-        <span className="text-backgroundColor">Eng zalad programmer</span>
-        All right reserved
+        <p className="text-center py-4 ">
+          &copyright developed by
+          <span className="text-backgroundColor">Eng zalad programmer</span>
+          All right reserved
+        </p>
       </div>
     </div>
   );
